@@ -1,0 +1,122 @@
+/* ======== Fonte Global e Base ======== */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar,
+.navbar-custom {
+    background-color: #202024;
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid #323238;
+}
+
+.navbar-brand,
+.navbar-custom .navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+.navbar-custom .highlight {
+    color: #996dff;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.navbar-custom .nav-link {
+    color: #d0d0d0 !important;
+    margin-right: 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #996dff !important;
+    transform: translateY(-2px);
+}
+
+.navbar-custom .nav-link::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #996dff;
+    transition: width 0.3s ease;
+    margin-top: 4px;
+}
+
+.navbar-custom .nav-link:hover::after {
+    width: 100%;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #2c2c3a;
+}
+
+.card-body {
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.btn,
+.btn-roxo {
+    font-size: 1.1rem;
+    padding: 10px 50px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-roxo {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.btn-roxo:hover {
+    background-color: #5a32a3;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    font-size: 1.2rem;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.table thead th {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
