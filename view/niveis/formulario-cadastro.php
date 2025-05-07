@@ -1,6 +1,6 @@
 <?php include '../../includes/header.php';?>
 
-    <div class="card bg-dark text-light shadow-sm mx-auto mt-5" style="max-width: 500px;">
+    <div class="card bg text-light shadow-sm mx-auto mt-5" style="max-width: 500px;">
         <div class="card-body">
             <h2 class="card-title mb-4 text-center">Cadastrar Nível</h2>
 
